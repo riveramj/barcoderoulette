@@ -38,9 +38,7 @@ sprintly
 .filestore_root_qa
 *.sublime-project
 *.sublime-workspace
-js/
 javascripts/
-stylesheets/
 .sbtopts
 
 # Eclipse-specific ignores
