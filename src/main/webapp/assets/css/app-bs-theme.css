@@ -213,19 +213,22 @@ a.list-group-item:hover, a.list-group-item:focus {
     font-weight: normal;
 }
 
+@font-face {
+  font-family: axis;
+  src: url(/assets/fonts/axis.otf);
+}
+
 ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-.restaurant {
-  position: relative;
-  /*border-radius: 25px;*/
-  /*border: 2px solid black;*/
-  /*border-radius: 30px;*/
-  /*-moz-border-radius: 30px;*/
-  /*-khtml-border-radius: 30px;*/
-  /*-webkit-border-radius: 30px;*/
+.rounded-image {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
 }
 
 .restaurant-picture {
@@ -238,3 +241,11 @@ ul {
   padding-top: 5px;
 }
 
+.restaurant > div {
+  font-family: axis;
+  padding-bottom: 20px;
+}
+
+.restaurant-info > li {
+  display: inline-block;
+}
