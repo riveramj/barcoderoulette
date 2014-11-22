@@ -1,8 +1,23 @@
-/*A somewhat Lift:ish Bootstrap theme. 
-Make and or include your own bootstrap-theme for your app*/
-
 /*as we are using a navbar fixed to the top*/
-body { padding-top: 70px; }
+body { 
+  padding-top: 90px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header.navbar-default {
+  background-color: #F2623F;
+  text-align: center;
+  height: 75px;
+}
+
+header h4 {
+  color: #ffffff;
+  
+  font-weight: 300;
+  font-size: 25px;
+
+  padding-top: 15px;
+}
 
 ul {
   list-style-type: none;
