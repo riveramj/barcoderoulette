@@ -1,13 +1,13 @@
 /*as we are using a navbar fixed to the top*/
 body { 
-  padding-top: 90px;
+  padding-top: 80px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 header.navbar-default {
   background-color: #F2623F;
   text-align: center;
-  height: 75px;
+  height: 50px;
 }
 
 header h4 {
@@ -16,7 +16,7 @@ header h4 {
   font-weight: 300;
   font-size: 25px;
 
-  padding-top: 15px;
+  padding-top: 3px;
 
   display: inline-block;
 }
@@ -26,7 +26,7 @@ header .fa-angle-left  {
   font-size: 40px;
   float: left;
 
-  padding: 18px 0 0 10px;
+  padding: 4px 0 0 10px;
 }
 
 header .fa-heart  {
@@ -34,7 +34,7 @@ header .fa-heart  {
   font-size: 27px;
   float: right;
 
-  padding: 28px 18px 0 0;
+  padding: 9px 18px 0 0;
 }
 
 
