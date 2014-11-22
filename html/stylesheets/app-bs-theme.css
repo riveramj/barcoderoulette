@@ -93,4 +93,6 @@ ul {
   height: 100%;
 }
 
-
+li.middle {
+  margin-left: 9px;
+}
