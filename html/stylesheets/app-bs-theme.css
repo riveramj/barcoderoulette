@@ -17,7 +17,26 @@ header h4 {
   font-size: 25px;
 
   padding-top: 15px;
+
+  display: inline-block;
 }
+
+header .fa-angle-left  {
+  color: #ffffff;
+  font-size: 40px;
+  float: left;
+
+  padding: 18px 0 0 10px;
+}
+
+header .fa-heart  {
+  color: #FAF5A1;
+  font-size: 27px;
+  float: right;
+
+  padding: 28px 18px 0 0;
+}
+
 
 ul {
   list-style-type: none;
