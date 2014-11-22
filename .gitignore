@@ -1,0 +1,82 @@
+._*
+.DS_Store
+.DS_Store?
+.ensime
+.ensime~
+.ensime_lucene/
+.history
+.idea_modules/
+.idea/
+.metadata/
+.sass-cache/
+.Spotlight-V100
+.Trashes
+*.csv
+*.iml
+*.orig
+*.pyc
+*.scala#
+*.sw
+*.swp
+*.tgz
+/.idea/
+/project/boot/
+/project/plugins/project
+atlassian-ide-plugin.xml
+chromedriver.log
+console.devmode.log
+ehthumbs.db
+Icon?
+lib_managed/
+seleniumLog*
+src_managed/
+target/
+test-output/
+Thumbs.db
+sprintly
+.filestore_root
+.filestore_root_qa
+*.sublime-project
+*.sublime-workspace
+js/
+javascripts/
+stylesheets/
+.sbtopts
+
+# Eclipse-specific ignores
+.cache
+.classpath
+.project
+.settings/
+
+# Dexy-related ignores
+.dexy
+.trash
+output/
+doc/*.jar
+generated-docs/
+
+# VIM ignores
+*.swo
+*.swp
+
+# Emacs
+*~
+*#
+.#*
+
+doc/bms_user_guide.html
+
+# Exclude generated report.
+projections-debug-data*
+debug-projections-report/report.html
+
+# JSON seed files for DevOps
+persistence/src/main/config/seed
+
+# Files from windows
+portal/node_modules/
+npm-debug.log
+
+# CTAGS
+tags
