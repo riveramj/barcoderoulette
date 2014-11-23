@@ -69,6 +69,7 @@ ul {
 .restaurant-info {
   margin-left: 5px;
   display: inline-block;
+  width: 100%;
 }
 
 .nearby-restaurant > li {
@@ -103,8 +104,13 @@ li.middle {
   height: 15px;
 }
 
+.popularity {
+  margin-right: 10px;
+}
+
 .popularity > li > img {
   height: 100%;
   width: 100%;
   margin-bottom: 5px;
 }
+
