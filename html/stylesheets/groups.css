@@ -1,0 +1,28 @@
+#header {
+  padding-bottom: 0px;
+}
+
+body {
+  padding-top: 40px;
+}
+
+.search-and-create > li {
+  display: inline-block;
+  background-color: #F2F2F4;
+  border: 1px solid #D2D2D2;
+  height: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+.search-and-create {
+  width: 100%;
+}
+
+.search-and-create > li > span {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
