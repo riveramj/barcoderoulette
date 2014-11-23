@@ -49,12 +49,11 @@ ul {
 }
 
 .restaurant > div {
-  border-color: gray;
   padding-bottom: 20px;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   border-radius: 6px;
-  border: 1px solid;
+  border: 1px solid #DEDEDE;
   -moz-border-radius:6px;
   -webkit-border-radius:6px;
 }
@@ -63,24 +62,25 @@ ul {
   margin-bottom: 10px;
 }
 
-.restaurant-info > div > li {
+.restaurant-info > li {
   display: inline-block;
 }
 
 .restaurant-info {
   margin-left: 5px;
+  display: inline-block;
 }
 
 .nearby-restaurant > li {
   display: inline-block;
-  border-color: gray;
   padding-bottom: 20px;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   border-radius: 6px;
-  border: 1px solid;
+  border: 1px solid #DEDEDE;
   -moz-border-radius:6px;
   -webkit-border-radius:6px;
+  text-align: center;
 }
 
 .image-container {
@@ -95,4 +95,16 @@ ul {
 
 li.middle {
   margin-left: 9px;
+}
+
+.popularity > li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.popularity > li > img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5px;
 }
