@@ -51,7 +51,7 @@
         </div>
       </div>
     </div>
-    <div id="more-information">
+    <div id="more-information" class="closed">
       <div class="arrow-up"></div>
       More Information
     </div>
@@ -61,15 +61,15 @@
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
 
     <script type="text/javascript">
-      var myElement = document.getElementById('more-information');
+      var moreInfo = document.getElementById('more-information');
 
       // create a simple instance
       // by default, it only adds horizontal recognizers
       var mc = new Hammer(myElement);
 
       // listen to events...
-      mc.on("tap press swipe", function(ev) {
-        alert(ev.type +" gesture detected.");
+      mc.on("swipe", function(ev) {
+        $(moreInfo).removeClass('closed')
       });
 
       mc.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
