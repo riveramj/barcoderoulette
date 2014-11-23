@@ -79,7 +79,7 @@
       var mc = new Hammer(moreInfo);
 
       // listen to events...
-      mc.on("tap swipe", function(ev) {
+      mc.on("swipe", function(ev) {
         if($(moreInfo).hasClass('closed')) {
           $(moreInfo).toggleClass('closed');
           $('#header').toggleClass('closed'); 
