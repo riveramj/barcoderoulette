@@ -1,0 +1,25 @@
+#logo {
+  display: block;
+  padding-top: 80px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.text {
+  display: block;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+#submit {
+  display: block;
+  height: 40px;
+  margin: auto;
+  border: none;
+  width: 60%;
+  background-color: #FF6138;
+  color: white;
+}
