@@ -142,7 +142,7 @@ body {
   width: 100%;
 }
 
-#more-information.closed #restaurant-header, #more-information.closed #redeem-details, #more-information.closed #restaurant-map {
+#more-information.closed #restaurant-details {
   display: none;
 }
 
