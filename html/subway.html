@@ -25,21 +25,60 @@
       <h4>
         Barcode Roulette
       </h4>
-      <i class="fa fa-heart"></i>
+      <img id="icon" src="http://i.imgur.com/09XEI7i.png">
     </div>
   </header>
 
-  <div>
-    <img id="barcode" src="images/qr-code.png">
-    <div id="scan-result">
-      <span>Did you win?</span>
-      <ul id="win-results">
-        <li>Yes</li><li>No</li>
-      </ul>
+  <div id="store-page">
+    <div id="user-transaction"> 
+      <div id="barcode">
+        <img src="images/qr-code.png">
+      </div>
+      <div id="scan-result">
+        <span>Did you win?</span>
+        <ul id="win-results">
+          <li class="active">Yes</li><li>No</li>
+        </ul>
+      </div>
+      <div id="share-social">
+        <div class="social-network">
+          <i class="fa fa-facebook-square fa-3x"></i>
+          <div>Facebook</div>
+        </div>
+        <div class="social-network">
+          <i class="fa fa-twitter fa-3x"></i>
+          <div>Twitter</div>
+        </div>
+      </div>
+    </div>
+    <div id="more-information" class="closed">
+      <div class="arrow-up"></div>
+      More Information
+      <img src="images/subway.png" id="restaurant-header">
     </div>
   </div>
   <tail>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
+
+    <script type="text/javascript">
+      var moreInfo = document.getElementById('more-information');
+
+      // create a simple instance
+      // by default, it only adds horizontal recognizers
+      var mc = new Hammer(moreInfo);
+
+      // listen to events...
+      mc.on("swipe", function(ev) {
+        if($(moreInfo).hasClass('closed')) {
+          $(moreInfo).removeClass('closed');
+        } else {
+          $(moreInfo).addClass('closed');
+        }
+      });
+
+      mc.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
+    </script>
   </tail>
 </body>
 </html>

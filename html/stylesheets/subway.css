@@ -1,5 +1,25 @@
+html,
+body {
+   margin:0;
+   padding:0 !important;
+   height:100%;
+}
+
 #barcode {
-  margin-top: -10px;
+  padding-top: 50px;
+  text-align: center;
+  background: #ffffff;
+}
+
+#store-page {
+  min-height:100%;
+  position:relative;
+
+  background-color: #F2F2F4;
+}
+
+#user-transaction {
+  padding-bottom:25px;
 }
 
 #scan-result span, #win-results {
@@ -11,7 +31,8 @@
 }
 
 #scan-result {
-  margin: 20px 0 0 20px;
+  padding: 17px 0 17px 20px;
+  background-color: #ffffff;
 }
 
 #win-results {
@@ -52,5 +73,75 @@
 
   margin-left: -1px;
   cursor: pointer;
+}
 
+#share-social {
+  padding: 13px 0;
+}
+
+#share-social .social-network {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+
+  width: 50%;
+  margin-right: -3px;
+
+  display: inline-block;
+  text-align: center;
+
+  padding: 3px 0;
+}
+
+#share-social .social-network div {
+  display: inline-block;
+  height: 100%;
+}
+
+#share-social button .fa, #share-social button div {
+  display: inline-block;
+}
+
+.fa-facebook-square, .fa-twitter { 
+  color: #BCBCBC;
+  margin-right: 13px;
+
+  vertical-align: middle;
+}
+
+.arrow-up {
+  margin: -11px auto 0;
+
+	width: 0; 
+	height: 0; 
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 9px solid #F2623F;
+
+}
+
+#more-information {
+  background-color: #F2623F;
+  color: #ffffff;
+  text-align: center;
+  padding: 2px 0;
+
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+#more-information.closed {
+  height: 25px;
+}
+
+#more-information {
+  height: 88%;
+}
+
+#restaurant-header {
+  width: 100%;
+}
+
+#more-information.closed #restaurant-header {
+  display: none;
 }
