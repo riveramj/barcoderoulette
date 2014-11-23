@@ -5,6 +5,11 @@ body {
    height:100%;
 }
 
+#header.closed {
+  display: none;
+}
+
+
 #barcode {
   padding-top: 50px;
   text-align: center;
@@ -132,16 +137,49 @@ body {
 
 #more-information.closed {
   height: 25px;
+  background-color: #F2623F;
 }
 
 #more-information {
-  height: 88%;
+  height: 100%;
 }
 
 #restaurant-header {
   width: 100%;
 }
 
-#more-information.closed #restaurant-header {
+#more-information.closed #restaurant-details {
   display: none;
+}
+
+#redeem-details {
+  background-color: #F2F2F4;
+  margin-top: -32px;
+  color: #000000;
+  font-size: 11px;
+  padding: 45px 20px 15px;
+}
+
+#restaurant-map {
+  width: 100%;
+}
+
+#restaurant-address {
+  color: #000000;
+  text-align: left;
+  
+  padding: 7px 0 15px 30px;
+
+  background-color: #ffffff;
+}
+
+#more-information .fa-angle-right {
+  font-size: 1.8em;
+  color: #000000;
+
+  display: inline-block;
+  float: right;
+
+  padding-right: 12px;
+  margin-top: -3px;
 }
