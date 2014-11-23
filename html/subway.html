@@ -68,9 +68,14 @@
       var mc = new Hammer(moreInfo);
 
       // listen to events...
-      mc.on("tap swipe", function(ev) {
-        $(moreInfo).removeClass('closed');
-        alert("got the swipe");
+      mc.on("swipe", function(ev) {
+        if($(moreInfo).hasClass('closed')) {
+          $(moreInfo).removeClass('closed');
+          alert("opening");
+        } else {
+          $(moreInfo).addClass('closed');
+          alert("closing");
+        }
       });
 
       mc.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
