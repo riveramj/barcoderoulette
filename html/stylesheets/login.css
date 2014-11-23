@@ -24,9 +24,16 @@
   color: white;
 }
 
-#contact {
+#signup-link {
   color: #FF6138;
   display: block;
-  padding-top: 60px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#skip {
+  color: #FF6138;
+  display: block;
+  padding-top: 30px;
   text-align: center;
 }
