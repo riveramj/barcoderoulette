@@ -65,11 +65,11 @@
 
       // create a simple instance
       // by default, it only adds horizontal recognizers
-      var mc = new Hammer(myElement);
+      var mc = new Hammer(moreInfo);
 
       // listen to events...
       mc.on("swipe", function(ev) {
-        $(moreInfo).removeClass('closed')
+        $(moreInfo).removeClass('closed');
       });
 
       mc.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
