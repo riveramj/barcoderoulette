@@ -137,3 +137,11 @@ body {
 #more-information {
   height: 88%;
 }
+
+#restaurant-header {
+  width: 100%;
+}
+
+#more-information.closed #restaurant-header {
+  display: none;
+}
