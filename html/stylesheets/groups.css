@@ -35,3 +35,8 @@ body {
 .top-row {
   padding-top: 20px;
 }
+
+#startup-weekend-group {
+  text-decoration: none;
+  color: #000000;
+}
