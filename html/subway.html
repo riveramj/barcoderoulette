@@ -57,7 +57,23 @@
     </div>
   </div>
   <tail>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
+
+    <script type="text/javascript">
+      var myElement = document.getElementById('more-information');
+
+      // create a simple instance
+      // by default, it only adds horizontal recognizers
+      var mc = new Hammer(myElement);
+
+      // listen to events...
+      mc.on("tap press swipe", function(ev) {
+        alert(ev.type +" gesture detected.");
+      });
+
+      mc.get('swipe').set({ direction: Hammer.DIRECTION_VERTICAL });
+    </script>
   </tail>
 </body>
 </html>
