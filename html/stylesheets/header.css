@@ -35,3 +35,9 @@ header .fa-heart  {
 
   padding: 9px 18px 0 0;
 }
+
+#icon {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
