@@ -27,3 +27,11 @@ body {
   transform: translateY(-50%);
 }
 
+.left-row {
+  padding-bottom: 70px;
+  text-align: center; 
+}
+
+.top-row {
+  padding-top: 20px;
+}
