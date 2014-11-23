@@ -11,7 +11,7 @@
 }
 
 #scan-result {
-  margin: 20px 0 0 20px;
+  margin: 17px 0 0 20px;
 }
 
 #win-results {
@@ -52,5 +52,41 @@
 
   margin-left: -1px;
   cursor: pointer;
+}
 
+#share-social {
+  background-color: #F2F2F4;
+
+  padding: 33px 0;
+  margin-top: 20px;
+}
+
+#share-social .social-network {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+
+  width: 50%;
+  margin-right: -3px;
+
+  display: inline-block;
+  text-align: center;
+
+  padding: 3px 0;
+}
+
+#share-social .social-network div {
+  display: inline-block;
+  height: 100%;
+}
+
+#share-social button .fa, #share-social button div {
+  display: inline-block;
+}
+
+
+.fa-facebook-square, .fa-twitter { 
+  color: #BCBCBC;
+  margin-right: 13px;
+
+  vertical-align: middle;
 }
