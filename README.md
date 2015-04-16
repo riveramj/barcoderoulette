@@ -1,4 +1,4 @@
-## Barcode Roulette
+![Barcode Roulette](Screenshots and demo deck/desatlogo.png)
 #### HTML / CSS Mockup. Non-working demo.
 #### Atlanta Startup weekend project (Fall 2014)
 A chance to get free stuff in many of your favorite stores! 
